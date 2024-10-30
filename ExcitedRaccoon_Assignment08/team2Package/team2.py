@@ -1,3 +1,14 @@
+# Name: Connor MacFarland, Ryan Dew, Anthony Caggiano, JD Poindexter
+# email: macfarct@mail.uc.edu, dewrm@gmail.com, caggiaaj@mail.uc.edu, poindejd@mail.uc.edu
+# Assignment Number: Assignment 08
+# Due Date:  10/31/2024
+# Course #/Section:   IS 4010- 001
+# Semester/Year:   Fall 2024
+# Brief Description of the assignment: We got into groups to better our git hub collaboration skills
+# Brief Description of what this module does: 
+# Anything else that's relevant: 
+# Citation: 
+
 #Team2
 
 class Team2:
