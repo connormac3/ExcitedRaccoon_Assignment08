@@ -13,9 +13,9 @@
 
 
 
-from team1Package import *
-from team2Package import *
-from team3Package import *
+from team1Package.team1 import *
+from team2Package.team2 import *
+from team3Package.team3 import *
 
 if __name__ == "__main__":
 
