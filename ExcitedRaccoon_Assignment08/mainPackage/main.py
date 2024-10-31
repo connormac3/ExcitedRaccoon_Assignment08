@@ -30,18 +30,18 @@ if __name__ == "__main__":
         # Team 1: Play game
         print(team_a)  # __str__ method
         team_a.play_game("win")
-        print(f"After game, {team_a}")  # Updated wins
+        print("After game:" , team_a)  # Updated wins
 
         # Team 2: Score points
         print(team_b)  # __str__ method
-        print(team_b.score_points(120))
+        team_b.score_points(120)
 
         # Team 3: Change team name
         print(team_c)  # __str__ method
         team_c.change_name("Eagles")
-        print(f"Renamed team, {team_c}")  
+        print("Renamed team:", team_c)  
 
         # Show repr for each team
-        print(repr(team_a))
-        print(repr(team_b))
-        print(repr(team_c))
+        print("Team 1 repr:", repr(team_a))
+        print("Team2 repr:", repr(team_b))
+        print("Team 3 repr:", repr(team_c))
