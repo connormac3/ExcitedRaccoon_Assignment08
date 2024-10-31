@@ -25,7 +25,7 @@
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="team1Package\team3.py" />
+    <Compile Include="team1Package\team1.py" />
     <Compile Include="team1Package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
