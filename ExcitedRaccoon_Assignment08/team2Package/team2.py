@@ -4,7 +4,7 @@
 # Due Date:  10/31/2024
 # Course #/Section:   IS 4010- 001
 # Semester/Year:   Fall 2024
-# Brief Description of the assignment: We got into groups to better our git hub collaboration skills
+# Brief Description of the assignment:  Collaborating with a team to create a basketball tournament with teams winning and loosing, then a name change for one of the teams. 
 # Brief Description of what this module does: 
 # Anything else that's relevant: 
 # Citation: 
