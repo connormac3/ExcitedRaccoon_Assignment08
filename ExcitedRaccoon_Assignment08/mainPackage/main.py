@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
         # Team 2: Score points
         print(team_b)  
-        team_b.score_points(120)
+        print(team_b.score_points(120))
 
         # Team 3: Change team name
         print(team_c)  
