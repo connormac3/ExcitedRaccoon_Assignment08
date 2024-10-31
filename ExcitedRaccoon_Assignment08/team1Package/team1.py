@@ -98,7 +98,7 @@ class Team1(object):
         
     def __str__(self):
         """
-        @return String: A human-readable representation of the team and its record
+        @return String: A representation of the team and its record
         """
         return f"Team {self.__name}: {self.__wins} Wins, {self.__losses} Losses"
 

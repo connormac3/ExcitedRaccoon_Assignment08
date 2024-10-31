@@ -5,9 +5,11 @@
 # Course #/Section:   IS 4010- 001
 # Semester/Year:   Fall 2024
 # Brief Description of the assignment:  Collaborating with a team to create a basketball tournament with teams winning and loosing, then a name change for one of the teams. 
-# Brief Description of what this module does: 
+# Brief Description of what this module does: The team2 file defines the Team2 class, which tracks a basketball team’s name, wins, losses, and total points scored. It includes methods to simulate scoring points in a game and calculate the score-to-win ratio, 
+# along with a string  method for a readable summary of the team’s stats.
+
 # Anything else that's relevant: 
-# Citation: 
+# Citation: https://docs.python.org/3/tutorial/classes.html, https://www.geeksforgeeks.org/str-vs-repr-in-python/
 
 #Team2
 
