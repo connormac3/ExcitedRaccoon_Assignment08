@@ -6,12 +6,10 @@
 # Due Date:  10/31/2024
 # Course #/Section:   IS 4010- 001
 # Semester/Year:   Fall 2024
-# Brief Description of the assignment:  
-# Brief Description of what this module does: 
+# Brief Description of the assignment:  Collaborating with a team to create a basketball tournament with teams winning and loosing, then a name change for one of the teams. 
+# Brief Description of what this module does: this is the entry point code that instatiates basketball teams then invokes methods. and it prints what happens to each team.
 # Anything else that's relevant: 
-# Citation: 
-
-
+# Citation: https://diveintopython.org/learn/classes/object-instantiation, used in class vehicle class as reference 
 
 from team1Package.team1 import *
 from team2Package.team2 import *
@@ -30,18 +28,21 @@ if __name__ == "__main__":
         # Team 1: Play game
         print(team_a)  # __str__ method
         team_a.play_game("win")
-        print(f"After game, {team_a}")  # Updated wins
+        print("After game:" , team_a)  # Updated wins
 
         # Team 2: Score points
-        print(team_b)  # __str__ method
-        print(team_b.score_points(120))
+        print(team_b)  
+        team_b.score_points(120)
 
         # Team 3: Change team name
-        print(team_c)  # __str__ method
+        print(team_c)  
         team_c.change_name("Eagles")
-        print(f"Renamed team, {team_c}")  
+        print("Renamed team:", team_c)  
 
         # Show repr for each team
-        print(repr(team_a))
-        print(repr(team_b))
-        print(repr(team_c))
+        print("Team 1:", (team_a))
+        print("Team 2:", (team_b))
+        print("Team 3:", (team_c))
+
+if __name__ == "__main__":
+    main()
